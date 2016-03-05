@@ -18,15 +18,27 @@ h1{
   line-height: 3.6rem;
   font-weight: 500;
   color: $grey;
+  padding-right:170px;
+  background: url(../../assets/img/logoGrey.svg) no-repeat right center;
+  @include breakpoint(small only){
+    padding-right:0;
+    font-size: 3rem;
+    line-height: 2.3rem;
+    background-size: auto;
+  }
 }
 
 h2{
   font-size: 1.2rem;
+  font-weight: 300;
 }
 
 header{
   background: #fff;
   padding:10px;
+  @include breakpoint(small){
+	  padding:10px 0;
+  }
 
   svg{
     width: 150px;
