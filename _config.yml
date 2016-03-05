@@ -44,6 +44,6 @@ incremental:      true
 # baseurl:        "" # does not include hostname
 
 # Outputting
-permalink:        "/post/:year/:title/"
-paginate_path:    "/post/page:num"
+permalink:        "/work/:year/:title/"
+paginate_path:    "/work/page:num"
 paginate:         5

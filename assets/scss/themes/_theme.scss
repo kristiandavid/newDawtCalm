@@ -18,7 +18,6 @@ h1{
   line-height: 3.6rem;
   font-weight: 500;
   color: $grey;
-  padding-right:170px;
   background: url(../../assets/img/logoGrey.svg) no-repeat right center;
   @include breakpoint(small only){
     padding-right:0;
@@ -26,11 +25,18 @@ h1{
     line-height: 2.3rem;
     background-size: auto;
   }
+  a{
+    display: block;
+  }
 }
 
 h2{
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+a{
+  color:$grey;
 }
 
 header{
