@@ -39,13 +39,13 @@
 //  34. Tooltip
 //  35. Top Bar
 
-// @import 'util/util';
+@import '../../vendor/foundation-sites/scss/util/util';
 
 // 1. Global
 // ---------
 
 // $global-font-size: 100%;
-// $global-width: rem-calc(1200);
+$global-width: rem-calc(1200);
 // $global-lineheight: 1.5;
 // $primary-color: #2199e8;
 // $secondary-color: #777;

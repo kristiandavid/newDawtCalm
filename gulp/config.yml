@@ -47,14 +47,14 @@ javascript:
     # - "assets/vendor/foundation-sites/js/foundation.tabs.js"
     # - "assets/vendor/foundation-sites/js/foundation.toggler.js"
     # - "assets/vendor/foundation-sites/js/foundation.tooltip.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.box.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.motion.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.nest.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.touch.js"
-    # - "assets/vendor/foundation-sites/js/foundation.util.triggers.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.box.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.motion.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.nest.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.touch.js"
+    - "assets/vendor/foundation-sites/js/foundation.util.triggers.js"
 
     # Paths to your own project code are here
     # All the files in this list are concatenated into all.js

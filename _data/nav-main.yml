@@ -1,11 +1,8 @@
 - link: Home
   url: /
 
-- link: Blog
-  url: /blog
+- link: About Me
+  url: /about
 
-- link: Sample Page
-  url: /samplepage
-
-- link: Kitchen Sink
-  url: /kitchen-sink
+- link: Get in touch
+  url: /contact

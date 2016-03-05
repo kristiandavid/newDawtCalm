@@ -21,18 +21,37 @@ h1{
 }
 
 h2{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 header{
   background: #fff;
   padding:10px;
+
+  svg{
+    width: 150px;
+    float: right;
+  }
 }
 
 
 
 nav{
+  ul{
+    float: left !important;
+  }
   a{
     font-size: 1.4rem;
+    color: $grey;
+    &:hover{
+      color: #000;
+    }
   }
+}
+
+
+
+footer{
+  background: #fff;
+  text-align: center;
 }
