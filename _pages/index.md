@@ -4,13 +4,13 @@ layout: index
 title: Kristian David Rogelstad
 ---
 
-<div class="row workPosts" data-equalizer data-equalize-on="medium">
+<div class="row workPosts">
   {% for post in site.posts %}
-    <div class="medium-6 large-4 columns end" data-equalizer-watch style="background:url({{ post.img }}) no-repeat 0 0;">
-      <a href="{{ post.url }}">
-        <span>{{ post.title }}</span>
-      </a>
-    </div>
+    <a href="{{ post.url }}">
+      <div class="medium-6 large-4 columns end" style="background-image:url({{ post.img }});">
+        <h3><span>{{ post.title }}</span></h3>
+      </div>
+    </a>
   {% endfor %}
 </div>
 

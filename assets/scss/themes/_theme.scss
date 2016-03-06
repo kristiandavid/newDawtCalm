@@ -86,16 +86,25 @@ nav{
 .workPosts{
   .columns{
     background-size: cover;
+    min-height: 250px;
+    border: 4px solid #fff;
+    position: relative;
   }
 
   a{
     display: block;
     margin: 20px 0;
+  }
+  h3{
+    position: absolute;
+    left:0;
+    top:20%;
+    padding-right: 20%;
+    font-size: 2rem;
+    line-height: 2.4rem;
     span{
       background: $grey90;
       color:#fff;
-      font-size: 3.5rem;
-      line-height: 4.1rem;
       text-transform: uppercase;
       font-weight: 300;
     }
