@@ -46,4 +46,4 @@ incremental:      true
 # Outputting
 permalink:        "/work/:year/:title/"
 paginate_path:    "/work/page:num"
-paginate:         5
+paginate:         18
