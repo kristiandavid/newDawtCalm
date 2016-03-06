@@ -73,7 +73,31 @@ nav{
     font-size: 1.4rem;
     color: $grey;
     &:hover{
-      color: #000;
+      // color: #000;
+    }
+  }
+}
+
+
+
+// --------------------------------------------------
+// Homepage
+// --------------------------------------------------
+.workPosts{
+  .columns{
+    background-size: cover;
+  }
+
+  a{
+    display: block;
+    margin: 20px 0;
+    span{
+      background: $grey90;
+      color:#fff;
+      font-size: 3.5rem;
+      line-height: 4.1rem;
+      text-transform: uppercase;
+      font-weight: 300;
     }
   }
 }

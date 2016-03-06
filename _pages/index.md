@@ -4,18 +4,15 @@ layout: index
 title: Kristian David Rogelstad
 ---
 
-Over 10 years of web development, 1 year of woodworking, 15 years of beard-growing, and 35 years of bacon appreciation.
-
-<ul>
+<div class="row workPosts" data-equalizer data-equalize-on="medium">
   {% for post in site.posts %}
-    <li>
+    <div class="medium-6 large-4 columns end" data-equalizer-watch style="background:url({{ post.img }}) no-repeat 0 0;">
       <a href="{{ post.url }}">
-        {{ post.title }}
-        <img src="{{ post.img }}" />
+        <span>{{ post.title }}</span>
       </a>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
 
 <!-- ![My Beard Logo]({{ site.url }}/assets/img/logoGrey.svg) -->
