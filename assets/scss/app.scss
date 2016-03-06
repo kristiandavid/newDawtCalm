@@ -35,14 +35,23 @@
 
 $grey: #4a4a4a;
 $grey90: rgba(74, 74, 74,.9);
+$grey70: rgba(74, 74, 74,.7);
+
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
 
 //
 // 3. Fonts
 // --------------------------------------------------
 
 // Open Sans
-// @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
 //
 // 4. Foundation
 // --------------------------------------------------

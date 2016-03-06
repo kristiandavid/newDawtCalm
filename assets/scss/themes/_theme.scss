@@ -2,10 +2,6 @@
 // Theme
 // --------------------------------------------------
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
-
-
-
 // --------------------------------------------------
 // Default
 // --------------------------------------------------
@@ -56,6 +52,9 @@ a{
   color:$grey;
 }
 
+strong{
+  font-weight: 500;
+}
 
 .full{
   max-width: 100%;
@@ -139,6 +138,14 @@ nav{
 
 
 
+// --------------------------------------------------
+// Posts layout
+// --------------------------------------------------
+.postImg{
+  border: 1px solid $grey70;
+  margin-bottom: 15px;
+}
+
 
 
 // --------------------------------------------------
@@ -153,5 +160,19 @@ nav{
     font-size: .75rem;
     margin: 0;
     padding:10px 0;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    li{
+      display:inline-block;
+      padding: 5px 5px 0 5px;
+      vertical-align: top;
+    }
+  }
+
+  svg{
+    fill:#fff;
   }
 }

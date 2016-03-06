@@ -11,10 +11,10 @@ layout: default
   <div class="row">
     <div class="large-8 columns">
       <a href="{{page.link}}" target="_blank">
-        <img src="/{{ page.img }}" alt="{{ page.title}}">
+        <img src="/{{ page.img }}" alt="{{ page.title}}" class=postImg>
       </a>
-      <p><a href="{{page.link}}" target="_blank">View Site: {{page.link}}</a></p>
-      <p>Built With: {{page.tech}}</p>
+      <p><a href="{{page.link}}" target="_blank"><strong>View Site:</strong> {{page.link}}</a></p>
+      <p><strong>Built With:</strong> {{page.tech}}</p>
     </div>
     <div class="large-4 columns">
       {{ content }}

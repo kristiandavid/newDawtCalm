@@ -13,6 +13,3 @@ title: Kristian David Rogelstad
     </a>
   {% endfor %}
 </div>
-
-
-<!-- ![My Beard Logo]({{ site.url }}/assets/img/logoGrey.svg) -->
