@@ -4,14 +4,20 @@ layout: default
 
 <main>
   <div class="row">
-    <div class=" small-12 columns">
-      <article>
-        <h3>{{ page.title }}</h3>
-        <p class="meta">{{ page.date | date_to_string }}</p>
-        <p class="post-content">
-        {{ content }}
-        </p>
-      </article>
+    <div class="medium-12 columns">
+      <h3>{{ page.title }}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-8 columns">
+      <a href="{{page.link}}" target="_blank">
+        <img src="/{{ page.img }}" alt="{{ page.title}}">
+      </a>
+      <p><a href="{{page.link}}" target="_blank">View Site: {{page.link}}</a></p>
+      <p>Built With: {{page.tech}}</p>
+    </div>
+    <div class="large-4 columns">
+      {{ content }}
     </div>
   </div>
 </main>
