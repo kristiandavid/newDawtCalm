@@ -17,7 +17,7 @@ h1{
   font-weight: 500;
   color: $grey;
   background: url(../../assets/img/logoGrey.svg) no-repeat right center;
-  @include breakpoint(small only){
+  @include breakpoint(small only) {
     padding-right:0;
     font-size: 3rem;
     line-height: 2.3rem;
