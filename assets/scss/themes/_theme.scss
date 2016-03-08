@@ -51,6 +51,9 @@ p{
 a{
   color:$grey;
   @include transition(color .5s);
+  &.linkU{
+    text-decoration: underline;
+  }
 }
 
 strong{

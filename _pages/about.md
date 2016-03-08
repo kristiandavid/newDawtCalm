@@ -13,6 +13,8 @@ To prove my point about constantly learning, this site is built with Jekyll, whi
 
 I hope you enjoy my work.
 
+Looking for my CV? <a href="/assets/pdf/KristianRogelstad_cv.pdf" target="_blank" class="linkU">It's right here!</a>
+
 ### Skills
 A selection of things I’m good at, on a scale of 1 to 5 beards.
 
