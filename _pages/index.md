@@ -3,6 +3,7 @@ permalink: /
 layout: index
 title: Kristian David Rogelstad
 desc: Front End Web Developer
+seoDesc: Hello. My name is Kristian. I'm a front end web developer from Toronto, ON. I love hockey, woodworking and making things on the internet. I hope you like my work.
 ---
 
 <div class="row workPosts">

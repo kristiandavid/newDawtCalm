@@ -190,6 +190,39 @@ nav{
 }
 
 
+// --------------------------------------------------
+// Pagination
+// --------------------------------------------------
+.pagination{
+  background: #eee;
+  list-style-type:none;
+  margin: 10px 0;
+  padding:10px 20px;
+  li{
+    display: inline-block;
+    padding:0 10px;
+    a{
+      color: $grey;
+      font-size: 1.2rem;
+    }
+    &.current{
+      a{
+        text-decoration: underline;
+        color:#000;
+      }
+    }
+  }
+}
+
+
+// --------------------------------------------------
+// Contact Bar
+// --------------------------------------------------
+.contact{
+  text-align: center;
+  border-top:1px solid $grey70;
+}
+
 
 // --------------------------------------------------
 // Footer

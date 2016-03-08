@@ -40,10 +40,10 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-# url:            ""
+url:            "http://www.kristiandavid.com"
 # baseurl:        "" # does not include hostname
 
 # Outputting
 permalink:        "/work/:year/:title/"
 paginate_path:    "/work/page:num"
-paginate:         18
+paginate:         3
