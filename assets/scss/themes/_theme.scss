@@ -2,37 +2,273 @@
 // Theme
 // --------------------------------------------------
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
-
-
+// --------------------------------------------------
+// Default
+// --------------------------------------------------
 *{
   font-family: 'Roboto', sans-serif !important;
   color:$grey;
 }
 
-body{font-size: 10px;}
-
 h1{
   text-transform: uppercase;
-  font-size: 4.8rem;
-  line-height: 3.6rem;
+  font-size: 4rem;
+  line-height: 3rem;
   font-weight: 500;
   color: $grey;
+  background: url(../../assets/img/logoGrey.svg) no-repeat right center;
+  @include breakpoint(small only) {
+    padding-right:0;
+    font-size: 3rem;
+    line-height: 2.3rem;
+    background-size: auto;
+  }
+  a{
+    display: block;
+  }
 }
 
 h2{
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
+h3{
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+h4{
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+a{
+  color:$grey;
+  @include transition(color .5s);
+  &.linkU{
+    text-decoration: underline;
+  }
+}
+
+strong{
+  font-weight: 500;
+}
+
+.full{
+  max-width: 100%;
+  .row{
+    margin:0 auto;
+  }
+  .columns{
+    padding: 0 15px;
+  }
+}
+
+// --------------------------------------------------
+// Header
+// --------------------------------------------------
 header{
   background: #fff;
   padding:10px;
+  @include breakpoint(small){
+	  padding:10px 0;
+  }
+
+  svg{
+    width: 150px;
+    float: right;
+  }
+}
+
+
+.nav{
+  background: none;
+  background: $grey;
+}
+nav{
+  padding-left:0;
+  padding-right:0;
+  ul{
+    padding:0;
+  }
+  a{
+    font-size: 1rem;
+    color: #fff;
+    &:hover{
+      color: #fff;
+    }
+  }
 }
 
 
 
-nav{
+// --------------------------------------------------
+// Homepage
+// --------------------------------------------------
+.workPosts{
+  .columns{
+    position: relative;
+    padding: 0;
+  }
+
+  .overlay{
+    background: rgba(255,255,255,.7);
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    @include transition(background 1s);
+  }
+
   a{
-    font-size: 1.4rem;
+    display: block;
+    margin: 20px 0;
+    h3{
+      span{
+        @include transition(background 1s);
+      }
+    }
+    &:hover{
+      span{
+        background: $grey;
+      }
+      .overlay{
+        background: rgba(255,255,255,.3);
+      }
+    }
+  }
+
+  .inner{
+    background-size: cover;
+    background-position: center;
+    display: block;
+    min-height: 250px;
+    margin:5px;
+    border: 1px solid $grey70;
+  }
+
+  h3{
+    position: absolute;
+    left:0;
+    top:20%;
+    padding-right: 20%;
+    font-size: 2rem;
+    line-height: 3rem;
+    span{
+      background: $grey90;
+      color:#fff;
+      text-transform: uppercase;
+      font-weight: 300;
+      padding:5px 0;
+    }
+  }
+}
+
+
+
+// --------------------------------------------------
+// About Page layout
+// --------------------------------------------------
+.aboutPage{
+  margin-top: 20px;
+}
+
+.aboutImg{
+  @include breakpoint(small only){
+    display: none;
+  }
+}
+
+.ratings{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  img{
+    width:15%;
+  }
+}
+
+
+
+// --------------------------------------------------
+// Posts layout
+// --------------------------------------------------
+.postImg{
+  border: 1px solid $grey70;
+  margin-bottom: 15px;
+}
+
+
+// --------------------------------------------------
+// Pagination
+// --------------------------------------------------
+.pagination{
+  background: #eee;
+  list-style-type:none;
+  margin: 10px 0;
+  padding:10px 20px;
+  li{
+    display: inline-block;
+    padding:0 10px;
+    a{
+      color: $grey;
+      font-size: 1.2rem;
+    }
+    &.current{
+      a{
+        text-decoration: underline;
+        color:#000;
+      }
+    }
+  }
+}
+
+
+// --------------------------------------------------
+// Contact Bar
+// --------------------------------------------------
+.contact{
+  text-align: center;
+  border-top:1px solid #ccc;
+  margin-top: 40px;
+  a{
+    text-decoration: underline;
+  }
+}
+
+
+// --------------------------------------------------
+// Footer
+// --------------------------------------------------
+.footer{
+  background: $grey;
+  max-width:100%;
+  margin-top:20px;
+  p{
+    color:#fff;
+    font-size: .75rem;
+    margin: 0;
+    padding:10px 0;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    li{
+      display:inline-block;
+      padding: 5px 5px 0 5px;
+      vertical-align: top;
+    }
+  }
+
+  svg{
+    fill:#fff;
   }
 }

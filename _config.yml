@@ -2,7 +2,6 @@
 language:               ""
 title:                  "Kristian David Rogelstad"
 description:            "Hello. My name is Kristian. I love bacon, hockey, woodworking and making things on the internet."
-google-verification:    ""
 
 # Handling Reading
 include:
@@ -40,10 +39,10 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-# url:            ""
+url:            "http://www.kristiandavid.com"
 # baseurl:        "" # does not include hostname
 
 # Outputting
-permalink:        "/blog/:year/:title/"
-paginate_path:    "/blog/page:num"
-paginate:         5
+permalink:        "/work/:year/:title/"
+paginate_path:    "/work/page:num"
+paginate:         3
