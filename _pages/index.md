@@ -2,6 +2,7 @@
 permalink: /
 layout: index
 title: Kristian David Rogelstad
+desc: Front End Web Developer
 ---
 
 <div class="row workPosts">
