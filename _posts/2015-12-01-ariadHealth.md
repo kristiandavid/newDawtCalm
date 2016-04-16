@@ -2,9 +2,10 @@
 layout: post
 title:  Ariad Health
 categories: website
-img : assets/img/work/ariadHealth.jpg
+img : assets/imgMin/work/ariadHealth.jpg
 link: http://www.ariadhealth.com
 tech: HTML/CSS, Webflow, jQuery
+seoDesc: Ariad Communications has expanded it's healthcare division and was in need of a dedicated site for it.
 ---
 
 #### The Client

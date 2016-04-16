@@ -2,9 +2,10 @@
 layout: post
 title:  Premachurn
 categories: website
-img : assets/img/work/premachurn.jpg
+img : assets/imgMin/work/premachurn.jpg
 link: http://www.premachurn.com/
 tech: HTML/Sass, jQuery, Grunt
+seoDesc: This was a 1 page microsite built to showcase Ariad's latest whitepaper at the time, 'Suffering from Promachurn?'.
 ---
 
 #### The Client

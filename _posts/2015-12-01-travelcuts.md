@@ -2,9 +2,10 @@
 layout: post
 title:  Travelcuts
 categories: website
-img : assets/img/work/travelcuts.jpg
+img : assets/imgMin/work/travelcuts.jpg
 link: http://www.travelcuts.com/
 tech: HTML/CSS, jQuery, PureCSS, Umbraco
+seoDesc: Travelcuts was in need of a complete overhaul of their branding and website. Ariad was tasked with creating the new site for them.
 ---
 
 #### The Client

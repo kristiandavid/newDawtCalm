@@ -2,9 +2,10 @@
 layout: post
 title:  Always Bearded
 categories: website
-img : assets/img/work/alwaysBearded.jpg
+img : assets/imgMin/work/alwaysBearded.jpg
 link: http://www.alwaysbearded.com
 tech: HTML/CSS, Shopify, Wordpress, jQuery
+seoDesc: I was put in contact with Sven at Always Bearded by a mutual friend who thought my penchant for beard-growing would be a good fit.
 ---
 
 #### The Client

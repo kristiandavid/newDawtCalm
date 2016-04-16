@@ -4,7 +4,9 @@
   "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass.",
   "license": "MIT",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "imagemin-pngquant": "^4.2.2"
+  },
   "devDependencies": {
     "babel-plugin-transform-es2015-arrow-functions": "^6.5.2",
     "babel-plugin-transform-es2015-block-scoped-functions": "^6.5.0",
@@ -26,6 +28,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.1",
     "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-notify": "^2.2.0",
     "gulp-rev": "^7.0.0",
