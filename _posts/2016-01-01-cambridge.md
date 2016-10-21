@@ -2,9 +2,10 @@
 layout: post
 title:  Cambridge Global Payments
 categories: website
-img : assets/img/work/cambridge.jpg
+img : assets/imgMin/work/cambridge.jpg
 link: http://www.cambridgefx.com/
 tech: HTML/Sass, Foundation 5, Wordpress, jQuery, Grunt
+seoDesc: Cambridge was in need of a new, modern website to attract visitors, so they came to Ariad. I was in charge of rebuilding their site
 ---
 
 #### The Client

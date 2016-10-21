@@ -2,9 +2,10 @@
 layout: post
 title:  Save Our Scruff
 categories: website
-img : assets/img/work/sos.jpg
+img : assets/imgMin/work/sos.jpg
 link: http://www.saveourscruff.org
 tech: HTML/CSS, SquareSpace Devloper API
+seoDesc: Save Our Scruff is one of (if not the) best dog rescues in Toronto/Ontario/Canada/Earth.
 ---
 
 #### The Client

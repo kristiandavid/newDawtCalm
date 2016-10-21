@@ -2,9 +2,10 @@
 layout: post
 title:  Goo's Take-out
 categories: website
-img : assets/img/work/goos.jpg
+img : assets/imgMin/work/goos.jpg
 link: http://www.goostakeout.com
 tech: HTML/CSS
+seoDesc: I may be biased here, but Goo is the best chef I've ever known...he's also one of my best friends.
 ---
 
 #### The Client

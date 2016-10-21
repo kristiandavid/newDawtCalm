@@ -74,6 +74,7 @@ revision:
       - "assets/css/app.css"
       - "assets/js/all.js"
       - "assets/img/**"
+      - "assets/imgMin/**"
   collect:
     dest: "_site"
     src:

@@ -7,3 +7,7 @@ Hi! I'm KristianDavid. this is my repo for [my new portfolio site](http://www.kr
 I'm learning [Jekyll](https://jekyllrb.com) to build this out and am using the best responsive framework out there, [Foundation 6!](http://foundation.zurb.com). A special thanks to [core77](https://github.com/core77/jekyll-foundation) for jekyll-foundation.
 
 [Jekyll-Foundation Getting started](DOC.md)
+
+## Compiling/Deploying files
+
+To package up the production files to the _site folder, run the follwoing: $ npm run build
