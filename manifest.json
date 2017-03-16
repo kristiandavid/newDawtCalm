@@ -1,0 +1,27 @@
+{
+  "name": "kristianDavid",
+  "short_name": "kristianDavid",
+  "theme_color": "#4a4a4a",
+  "background_color": "#4a4a4a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/assets/imgMin/icons/apple-touch-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/imgMin/icons/apple-touch-icon-114x114.png",
+      "sizes": "114x114",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/imgMin/icons/apple-touch-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
