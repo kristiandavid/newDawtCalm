@@ -6,6 +6,8 @@ description:            "Hello. My name is Kristian. I love bacon, hockey, woodw
 # Handling Reading
 include:
   - ".htaccess"
+  - "sw.js"
+  - "manifest.json"
   - "_pages"
 
 exclude:
@@ -39,7 +41,7 @@ gems:             ["jekyll-sitemap", "jekyll-paginate"]
 incremental:      true
 
 # Serving
-url:            "http://www.kristiandavid.com"
+url:            "https://kristiandavid.com"
 # baseurl:        "" # does not include hostname
 
 # Outputting
